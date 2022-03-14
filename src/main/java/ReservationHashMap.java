@@ -11,7 +11,7 @@ public class ReservationHashMap extends Reservation {
 
     ConcurrentHashMap<String, Integer> map;
     //added to ensure order of input reservations matches
-    //order of output reservation to best mimic desired output example
+    //order in which they occur in theater
     ArrayList<String> idArrayList;
 
     public ReservationHashMap(String inputData) throws Exception {
