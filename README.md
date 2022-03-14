@@ -76,6 +76,6 @@ ooo--
 
 - Change of input file format: For this we only need to change ReservationHashMap to a different class that implements the Reservation interface
 
-- Concurrency: This would require changes to data structures used to be concurrent versions and added mutexes for file IO, printing to stdout, and modifying shared mutable state. This would require modification of implementation classes, but not interface classes. Also if the program is running as a server, this may require us to handle errors more gracefully.
+- Concurrency: This would require changes to data structures used to be concurrent versions and added mutexes for file IO, printing to stdout, and modifying shared mutable state. This would require modification of implementation classes, along with a way of handling requests concurrently. Also if the program is running as a server, this may require us to handle errors more gracefully.
 
 
