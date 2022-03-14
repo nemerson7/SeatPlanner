@@ -15,15 +15,15 @@ then run "java -jar ./target/MovieSeatAssigner-1.0-SNAPSHOT-jar-with-dependencie
 
 - The only constraint of the blocks is that they must be adjacently connected, see example below for line carryover for a block of size 6 on a 5x4 board:
 xxxxx
-____x
-____
-____
+----x
+-----
+-----
 
 - If there is a following group (suppose size 4), it will fill in at the end of the line, preserving spacing of 3 between groups on the same line
 xxxxx
-o___x
-ooo__
-_____
+o---x
+ooo--
+-----
 
 
 - The customer satisfaction criterion is assumed to mean as close to the screen as possible without violating safety constraint
