@@ -63,7 +63,7 @@ ooo--
 
 - Reservation: Abstract class for implementation class that stores movie reservations
 
-- ReservationHashMap: Implementation class provided for Reservation, utilizes a HashMap to map identifiers and seat counts (an arraylist is also used to guarantee order of identifiers in output matches order of identifiers in input)
+- ReservationHashMap: Implementation class provided for Reservation, utilizes a HashMap to map identifiers to seat counts 
 
 - SeatArrangement: Abstract class for implementation class that stores seat arrangements
 
