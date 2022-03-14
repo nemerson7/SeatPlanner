@@ -94,7 +94,7 @@ public class SeatArrangementArray extends SeatArrangement {
      * @param col seat column
      * @return string representing ticked location in seat arrangement
      */
-    public String coordToSeatNumber(int row, int col) {
+    private String coordToSeatNumber(int row, int col) {
         return String.valueOf((char) (65 + row)) + String.valueOf(col + 1);
     }
 }
