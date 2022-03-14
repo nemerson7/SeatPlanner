@@ -4,8 +4,15 @@
 
 ### Building
 
-Run "mvn package" from project directory to create jar file,
-then run "java -jar ./target/MovieSeatAssigner-1.0-SNAPSHOT-jar-with-dependencies.jar". Run "mvn test" from project directory to run test cases.
+Building:
+```
+mvn package
+java -jar ./target/MovieSeatAssigner-1.0-SNAPSHOT-jar-with-dependencies.jar
+```
+Testing:
+```
+mvn test
+```
 
 ### Assumptions
 
